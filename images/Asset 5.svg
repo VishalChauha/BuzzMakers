@@ -1,13 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 860.82">
-  <defs>
-    <style>
-      .cls-1 {
-        fill: #5933b0;
-      }
-    </style>
-  </defs>
-  <g id="Layer_2-2" data-name="Layer 2">
-    <polygon class="cls-1" points="1920 860.82 0 753.7 0 107.75 1920 0 1920 860.82"/>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 860.82" xmlns:v="https://vecta.io/nano"><path d="M1920 860.82L0 753.7V107.75L1920 0v860.82z" fill="#5933b0"/></svg>
