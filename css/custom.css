@@ -371,6 +371,7 @@ h1 {
   background-image: url('../images/Mask\ Group\ 1.png'), url('../images/Mask\ Group\ 2.png'), url('../images/Group\ 5456\ copy.png');
   background-size: 7rem, 7rem, 15rem;
   background-position: right -2% center, left -2% center, left -4% top;
+  /* background-attachment:fixed; */
   background-repeat: no-repeat;
 }
 
@@ -1062,12 +1063,32 @@ h1 {
 
 /* work page css */
 .header-hero-section-work {
-  height: 500px;
-  background-image: url('../images/OurWork/Group\ 5506.svg'), url('../images/OurWork/Group\ 5521.svg'), url('../images/OurWork/Group\ 5522.svg');
+  /* height: 500px; */
+  /* background-image: url('../images/OurWork/Group\ 5506.svg'), url('../images/OurWork/Group\ 5521.svg'), url('../images/OurWork/Group\ 5522.svg');
   background-position: right 15% bottom, left 15% bottom, center left 30%;
-  background-size: 25rem, 7rem, 60%;
+  background-size: 25rem, 7rem, 60%; */
+  background-image:url('../images/OurWork/Group\ 5522.svg');
+  background-position: center left 30%;
+  background-size:60%;
   background-repeat: no-repeat;
   background-color: var(--blue);
+}
+
+.img-container{
+  position:relative;
+  margin-top:-5%;
+}
+
+.header-hero-section-work .img-one{
+  width:10%;
+  position:absolute;
+  bottom: 0;
+  left: 10%;
+}
+.header-hero-section-work .img-two{
+  width: 60%;
+  position: relative;
+  bottom: 0;
 }
 
 .content-work {
@@ -1327,7 +1348,7 @@ display: none;
 }
 
 .about-content-yellow-bg div {
-  margin-left: 7rem;
+  margin-left: 10rem;
   margin-top: 2rem;
 }
 
@@ -1629,4 +1650,37 @@ display: none;
   text-align: center;
   background-color: var(--light-gray);
   font-size: 0.8rem;
+}
+
+/* custom code for animation */
+@keyframes bounce {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(-20px);
+  }
+}
+
+.box-animate {
+  animation:
+    bounce 1000ms
+    alternate infinite
+    cubic-bezier(.2, .65, .6, 1);
+}
+
+@keyframes bounce-y {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-20px);
+  }
+}
+
+.box-animate-y {
+  animation:
+    bounce-y 1000ms
+    alternate infinite
+    cubic-bezier(.2, .65, .6, 1);
 }

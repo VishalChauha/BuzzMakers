@@ -702,6 +702,10 @@
     background-color: var(--blue);
   }
 
+  .img-container{
+display: none;
+  }
+
   .content-work {
     color: var(--white-color);
     font-family: buzzbold;
