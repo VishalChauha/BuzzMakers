@@ -152,7 +152,7 @@ h1 {
 }
 .home-header {
     height: 600px;
-    background-image: url("../images/Path\ 1.svg"), url(../images/file0.webp), url("../images/layer32.webp");
+    background-image: url("../images/thunderstrom.svg"), url(../images/file0.webp), url("../images/layer32.webp");
     background-size: 20rem, 6rem, 6rem;
     background-position: center, left 4% top, bottom right 35%;
     background-repeat: no-repeat;
