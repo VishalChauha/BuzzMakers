@@ -50,6 +50,7 @@ h1 {
 }
 .logo {
     width: 25%;
+    aspect-ratio: auto 3/2;
 }
 .btn-buzz {
     background-color: var(--white-color);
@@ -1072,10 +1073,20 @@ h1 {
 
 .center-content-news a{
     color: var(--black);
+}
+.center-content-news a .arrow-img{
     transition-property: padding-left;
     transition-duration: 0.3s;
 }
 .center-content-news a:hover .arrow-img{
+    padding-left: 20px;
+}
+.arrow-img{
+    transition-property: padding-left;
+    transition-duration: 0.3s;
+}
+.arrow-img:hover{
+    cursor: pointer;
     padding-left: 20px;
 }
 
