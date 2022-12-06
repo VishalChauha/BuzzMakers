@@ -152,7 +152,7 @@ h1 {
 }
 .home-header {
     height: 600px;
-    background-image: url("../images/Path\ 1.svg"), url(../images/file0.png), url("../images/Layer\ 32.png");
+    background-image: url("../images/Path\ 1.svg"), url(../images/file0.webp), url("../images/layer32.webp");
     background-size: 20rem, 6rem, 6rem;
     background-position: center, left 4% top, bottom right 35%;
     background-repeat: no-repeat;
@@ -242,7 +242,7 @@ h1 {
     background-color: var(--white-color);
     text-align: center;
     padding: 60px 0;
-    background-image: url(../images/file-1.png), url(../images/speaker.png);
+    background-image: url(../images/file-1.webp), url(../images/speaker.webp);
     background-size: 15rem, 20rem;
     background-position: left 10% top -10%, right bottom;
     background-repeat: no-repeat;
@@ -287,14 +287,14 @@ h1 {
 }
 .services {
     padding: 50px 0;
-    background-image: url("../images/green-ribbon.png"), url("../images/orange-ribbon.png"), url("../images/Group\ 5456\ copy.png");
+    background-image: url("../images/green-ribbon.webp"), url("../images/orange-ribbon.webp"), url("../images/left-hand-with-star.webp");
     background-size: 7rem, 7rem, 15rem;
     background-position: right -2% center, left -2% center, left -4% top;
     background-repeat: no-repeat;
 }
 .service-box {
     width: 100%;
-    background-image: url("../images/Path\ 22645.svg");
+    background-image: url("../images/Path-22645.svg");
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -395,7 +395,7 @@ h1 {
 }
 .testimonials {
     padding: 50px 0;
-    background-image: url("../images/Layer\ 33.png"), url("../images/Layer\ 333.png"), url("../images/file-1\ copy.png");
+    background-image: url("../images/layer33.webp"), url("../images/layer333.webp"), url("../images/file-1copy.webp");
     background-size: 6rem, 4rem, 25rem;
     background-repeat: no-repeat;
     background-position: top left 20%, bottom 5% right 40%, right -8% top;
@@ -486,13 +486,13 @@ h1 {
     position: relative;
 }
 .img-ui-icon-pen {
-    background-image: url(../images/Asset\2svg);
+    background-image: url(../images/Asset2.svg);
     background-position: right 10% bottom -60%;
     background-repeat: no-repeat;
     background-size: 20%;
 }
 .img-ui-icon-camera {
-    background-image: url(../images/Asset\3svg);
+    background-image: url(../images/Asset3.svg);
     background-position: right 10% bottom -20%;
     background-repeat: no-repeat;
     background-size: 20%;
@@ -517,7 +517,7 @@ h1 {
     padding: 50px 0;
     background-color: var(--blue);
     font-family: buzzbold;
-    background-image: url("../images/speaker-twice.png");
+    background-image: url("../images/speaker-twice.webp");
     background-repeat: no-repeat;
     background-position: right 20% bottom;
     background-size: 300px;
@@ -530,11 +530,11 @@ h1 {
     font-weight: 700;
 }
 .accordion-button::after {
-    background-image: url(../images/plus_icon.png);
+    background-image: url(../images/plus-icon.webp);
     filter: brightness(0) invert(1);
 }
 .accordion-button:not(.collapsed)::after {
-    background-image: url(../images/minus_icon.png);
+    background-image: url(../images/minus-icon.webp);
     filter: brightness(0) invert(1);
 }
 .accordion-item {
@@ -611,7 +611,7 @@ h1 {
     margin-bottom: 50px;
 }
 .strategy-section {
-    background-image: url("../images/Layer\ 32copy.png");
+    background-image: url("../images/layer32copy.webp");
     background-repeat: no-repeat;
     background-position: center right;
     background-size: 10rem;
@@ -620,7 +620,7 @@ h1 {
     text-align: center;
     padding: 100px 0;
     margin-top: 5%;
-    background-image: url("../images/file-1\ copy.png");
+    background-image: url("../images/file-1copy.webp");
     background-size: 10rem;
     background-position: left 0% top 0%;
     background-repeat: no-repeat;
@@ -642,7 +642,7 @@ h1 {
 .case-studies {
     padding: 50px 0;
     background-color: var(--blue);
-    background-image: url("../images/Mask\ Group\ 2.png"), url("../images/Mask\ Group\ 1.png");
+    background-image: url("../images/mask-group-2.webp"), url("../images/mask-group-1.webp");
     background-repeat: no-repeat;
     background-position: center bottom, right 20% top;
     background-size: 8rem, 8rem;
@@ -716,7 +716,7 @@ h1 {
     font-family: buzzlight !important;
 }
 .marketing-section {
-    background-image: url("../images/Layer\ 32copy.png");
+    background-image: url("../images/layer32copy.webp");
     background-repeat: no-repeat;
     background-position: center right;
     background-size: 10rem;
@@ -746,7 +746,7 @@ h1 {
     font-family: buzzlight !important;
 }
 .design-section {
-    background-image: url("../images/Layer\ 32copy.png");
+    background-image: url("../images/layer32copy.webp");
     background-repeat: no-repeat;
     background-position: center right;
     background-size: 10rem;
@@ -778,7 +778,7 @@ h1 {
     font-family: buzzlight !important;
 }
 .tech-section {
-    background-image: url("../images/Layer\ 32copy.png");
+    background-image: url("../images/layer32copy.webp");
     background-repeat: no-repeat;
     background-position: center right;
     background-size: 10rem;
@@ -809,7 +809,7 @@ h1 {
     font-family: buzzlight !important;
 }
 .studio-section {
-    background-image: url("../images/Layer\ 32copy.png");
+    background-image: url("../images/layer32copy.webp");
     background-repeat: no-repeat;
     background-position: center right;
     background-size: 10rem;
@@ -844,7 +844,7 @@ h1 {
 }
 .center-content {
     padding-bottom: 100px;
-    background-image: url("../images/file-1\ copy.png"), url(../images/file0.png);
+    background-image: url("../images/file-1copy.webp"), url(../images/file0.webp);
     background-repeat: no-repeat;
     background-position: left -5% top 18%, bottom left 35%;
     background-size: 10%, 7%;
@@ -868,7 +868,7 @@ h1 {
     width: 50%;
 }
 .header-hero-section-blog {
-    background-image: url("../images/Asset\ 6.png");
+    background-image: url("../images/asset6.webp");
     background-position: bottom right;
     background-size: 50%;
     background-repeat: no-repeat;
@@ -879,7 +879,7 @@ h1 {
     font-family: buzzbold;
 }
 .center-content-blog {
-    background-image: url("../images/Layer\ 32.png"), url(../images/file0.png);
+    background-image: url("../images/layer32.webp"), url(../images/file0.webp);
     background-repeat: no-repeat;
     background-position: right top 18%, bottom 35% left;
     background-size: 5rem, 5rem;
