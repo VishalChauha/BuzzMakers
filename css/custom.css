@@ -9,18 +9,22 @@
 }
 @font-face {
     font-family: buzz;
+    font-display: swap;
     src: url(../fonts/VinkaDuscha.ttf);
 }
 @font-face {
     font-family: buzzlight;
+    font-display: swap;
     src: url(../fonts/Fontspring-DEMO-visbycf-regular.otf);
 }
 @font-face {
     font-family: buzzbold;
+    font-display: swap;
     src: url(../fonts/Fontspring-DEMO-visbycf-bold.otf);
 }
 @font-face {
     font-family: buzzhindi;
+    font-display: swap;
     src: url(../fonts/dev.ttf);
 }
 html {
@@ -1346,4 +1350,5 @@ h1 {
     transform: translateY(0);
     opacity: 1;
   }
+
 
