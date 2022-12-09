@@ -852,9 +852,15 @@ h1 {
     color: var(--white-color);
     font-family: buzzlight;
 }
-.section-address,
-[type="radio"]:checked .contact-right-side-content .radio-select {
+
+.section-address{
     background: var(--yellow);
+}
+
+.highlight {
+    background: var(--yellow);
+    color: var(--black);
+    border: none;
 }
 .contact-right-side-content .form-control {
     background-color: transparent;
@@ -882,19 +888,25 @@ h1 {
     appearance: none;
     background-color: var(--blue);
 }
-.contact-right-side-content .radio-select {
+.contact-right-side-content .radioselect {
     border: 1px solid var(--white-color);
     padding: 10px 20px;
     border-radius: 10px;
     text-align: center;
-    background: var(--blue);
 }
 .arrow-img:hover,
 .center-content-news a:hover .arrow-img {
     padding-left: 20px;
 }
-[type="radio"]:not(:checked) .contact-right-side-content .radio-select {
+[type="radio"]{
+    display: none;
+}
+
+[type="radio"]:not(:checked) .contact-right-side-content .radioselect {
     background: var(--blue);
+}
+[type="radio"]:checked .contact-right-side-content .radioselect {
+    background: var(--yellow);
 }
 .prices-min-max {
     display: flex;
