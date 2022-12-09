@@ -1132,6 +1132,14 @@ h1 {
 }
 
 /* career css starts */
+.header-hero-section-career {
+    height: 450px;
+    background-color: var(--yellow);
+}
+.center-content-career{
+    position: relative;
+    margin-top: -13rem;
+}
 .center-content-career-second{
     background-color: var(--blue);
     padding:100px 0px;
