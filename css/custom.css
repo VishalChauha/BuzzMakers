@@ -40,7 +40,8 @@ html {
     transition: none;
 }
 .responsive-container {
-    max-width: 1800px;
+    /* min-width: 978px; */
+    max-width: 1680px;
     margin: 0 auto;
 }
 a {
@@ -893,6 +894,7 @@ h1 {
     padding: 10px 20px;
     border-radius: 10px;
     text-align: center;
+    margin-right: 10px;
 }
 .arrow-img:hover,
 .center-content-news a:hover .arrow-img {
@@ -902,12 +904,13 @@ h1 {
     display: none;
 }
 
-[type="radio"]:not(:checked) .contact-right-side-content .radioselect {
-    background: var(--blue);
-}
 [type="radio"]:checked .contact-right-side-content .radioselect {
     background: var(--yellow);
 }
+[type="radio"]:not(:checked) .contact-right-side-content .radioselect {
+    background: var(--blue);
+}
+
 .prices-min-max {
     display: flex;
     justify-content: space-between;
