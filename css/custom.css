@@ -40,8 +40,7 @@ html {
     transition: none;
 }
 .responsive-container {
-    /* min-width: 978px; */
-    max-width: 1680px;
+    max-width: 1800px;
     margin: 0 auto;
 }
 a {
@@ -167,7 +166,7 @@ h1 {
     height: 600px;
     background-image: url("../images/thunderstrom.svg"), url(../images/file0.webp), url("../images/layer32.webp");
     background-size: 20rem, 6rem, 6rem;
-    background-position: center, left 4% top, bottom right 35%;
+    background-position: center, left 8% top 18%, bottom right 35%;
     position: relative;
 }
 .project-screens {
