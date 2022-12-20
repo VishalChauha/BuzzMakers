@@ -467,12 +467,23 @@
     <script>
         $(document).ready(function () {
             //change colour when radio is selected
+            // $('#radio-example input:radio').change(function () {
+            //     // Only remove the class in the specific `box` that contains the radio
+            //     $('div.highlight').removeClass('highlight');
+            //     // $(this).closest('.row').addClass('highlight');
+            //     $(this).closest('.radioselect').addClass('highlight');
+            // });
             $('#radio-example input:radio').change(function () {
                 // Only remove the class in the specific `box` that contains the radio
+
+                $(".radioselect").prop("checked", false)
                 $('div.highlight').removeClass('highlight');
-                // $(this).closest('.row').addClass('highlight');
+
+                $(".radioselect").prop("checked", true)
                 $(this).closest('.radioselect').addClass('highlight');
+
             });
+
         });
     </script>
 </body>

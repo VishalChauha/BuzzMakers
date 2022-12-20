@@ -900,13 +900,13 @@ h1 {
     padding-left: 20px;
 }
 [type="radio"]{
-    display: none;
+    display: block;
 }
 
-[type="radio"]:checked .contact-right-side-content .radioselect {
+[type="radio"]:checked .radioselect {
     background: var(--yellow);
 }
-[type="radio"]:not(:checked) .contact-right-side-content .radioselect {
+[type="radio"]:not(:checked) .radioselect {
     background: var(--blue);
 }
 
