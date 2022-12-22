@@ -903,11 +903,19 @@ h1 {
     display: block;
 }
 
-[type="radio"]:checked .radioselect {
+/* [type="radio"]:checked .radioselect {
     background: var(--yellow);
 }
 [type="radio"]:not(:checked) .radioselect {
     background: var(--blue);
+} */
+
+.radioselect-yellow {
+    background: var(--yellow);
+}
+.radioselect {
+    /* background: var(--blue); */
+    color: var(--white-color);
 }
 
 .prices-min-max {

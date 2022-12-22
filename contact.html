@@ -271,13 +271,29 @@
                                             <label class="radioselect" for="radone">
                                                 <span>Mon</span><br>
                                                 <b>Mar 1</b>
-                                                <input type="radio" name="radio" id="radone">
+                                                <input type="radio" name="radio" id="radone"
+                                                    onchange="convertRadio('radone')">
                                             </label>
 
                                             <label class="radioselect" for="radtwo">
                                                 <span>Tue</span><br>
                                                 <b>Mar 2</b>
-                                                <input type="radio" name="radio" id="radtwo">
+                                                <input type="radio" name="radio" id="radtwo"
+                                                    onchange="convertRadio('radtwo')">
+                                            </label>
+
+                                            <label class="radioselect" for="radthree">
+                                                <span>Tue</span><br>
+                                                <b>Mar 3</b>
+                                                <input type="radio" name="radio" id="radthree"
+                                                    onchange="convertRadio('radthree')">
+                                            </label>
+
+                                            <label class="radioselect" for="radfour">
+                                                <span>Tue</span><br>
+                                                <b>Mar 4</b>
+                                                <input type="radio" name="radio" id="radfour"
+                                                    onchange="convertRadio('radfour')">
                                             </label>
                                         </div>
                                     </div>
@@ -465,26 +481,26 @@
     <script src="js/custom.js"></script>
     <script src="js/rangeslider.js"></script>
     <script>
-        $(document).ready(function () {
-            //change colour when radio is selected
-            // $('#radio-example input:radio').change(function () {
-            //     // Only remove the class in the specific `box` that contains the radio
-            //     $('div.highlight').removeClass('highlight');
-            //     // $(this).closest('.row').addClass('highlight');
-            //     $(this).closest('.radioselect').addClass('highlight');
-            // });
-            $('#radio-example input:radio').change(function () {
-                // Only remove the class in the specific `box` that contains the radio
+        // $(document).ready(function () {
+        //     //change colour when radio is selected
+        //     // $('#radio-example input:radio').change(function () {
+        //     //     // Only remove the class in the specific `box` that contains the radio
+        //     //     $('div.highlight').removeClass('highlight');
+        //     //     // $(this).closest('.row').addClass('highlight');
+        //     //     $(this).closest('.radioselect').addClass('highlight');
+        //     // });
+        //     $('#radio-example input:radio').change(function () {
+        //         // Only remove the class in the specific `box` that contains the radio
+        //         // $('div.highlight').removeClass('highlight');
 
-                $(".radioselect").prop("checked", false)
-                $('div.highlight').removeClass('highlight');
+        //         $('.radioselect').addClass('highlight');
 
-                $(".radioselect").prop("checked", true)
-                $(this).closest('.radioselect').addClass('highlight');
+        //     });
 
-            });
-
-        });
+        // });
+        function convertRadio(rid) {
+            $('.radioselect').addClass('highlight');
+        }
     </script>
 </body>
 
