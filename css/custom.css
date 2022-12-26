@@ -900,7 +900,13 @@ h1 {
     padding-left: 20px;
 }
 [type="radio"]{
-    display: block;
+    display:none;
+}
+#radio-example{
+    gap: 20px;
+}
+.radio-date-container .slick-initialized .slick-slide{
+    margin-right: 10px;
 }
 
 /* [type="radio"]:checked .radioselect {
@@ -912,11 +918,9 @@ h1 {
 
 .radioselect-yellow {
     background: var(--yellow);
+    color: var(--black) !important;
 }
-.radioselect {
-    /* background: var(--blue); */
-    color: var(--white-color);
-}
+
 
 .prices-min-max {
     display: flex;
@@ -1216,6 +1220,7 @@ h1 {
     text-align: center;
     background-color: var(--light-gray);
 }
+
 @keyframes bounce {
     from {
         transform: translateX(0);

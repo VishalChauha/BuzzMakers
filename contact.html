@@ -1,690 +1,536 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Buzz Makers</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/bootstrap-icons.css" />
-    <link rel="stylesheet" href="css/custom.css" />
-    <link rel="stylesheet" href="css/responsive.css" />
-    <link rel="stylesheet" href="css/slick.css" />
-    <link rel="stylesheet" href="css/rangeslider.css" />
-  </head>
 
-  <body>
-    <header class="mb-5">
-      <nav class="navbar navbar-expand-lg fixed-top">
-        <div class="container-fluid responsive-container">
-          <div class="mobile-nav">
-            <a class="navbar-brand pt-0" href="index.html">
-              <img src="./images/logo.svg" class="logo" alt="logo" />
-            </a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#buzzmenu"
-              aria-controls="buzzmenu"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              Menu
-            </button>
-          </div>
-          <div class="desktop-menu">
-            <ul class="navbar-nav ms-auto mb-lg-0">
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Services
-                </a>
-                <ul class="dropdown-menu">
-                  <li class="arrow-up">
-                    <div></div>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="strategy.html">Strategy</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="marketing.html">Content</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="technology.html"
-                      >Technology</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="design.html">Design</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="studio.html">Buzz Studio</a>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="work.html"
-                  >Our Work</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">About Us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="blogs.html">Blogs</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="news.html">News</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="careers.html">Careers</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </header>
-    <!-- collpase menu for mobile start -->
-    <div class="collapse mobile-menu-area" id="buzzmenu">
-      <img src="./images/logo.svg" style="width: 125px" alt="logo" />
-      <ul class="navbar-nav ms-auto mb-lg-0">
-        <li class="nav-item dropdown">
-          <a
-            class="nav-link dropdown-toggle"
-            href="#"
-            role="button"
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-          >
-            Services
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Buzz Makers</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/bootstrap-icons.css" />
+  <link rel="stylesheet" href="css/custom.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+  <link rel="stylesheet" href="css/slick.css" />
+  <link rel="stylesheet" href="css/rangeslider.css" />
+</head>
+
+<body>
+  <header class="mb-5">
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container-fluid responsive-container">
+        <div class="mobile-nav">
+          <a class="navbar-brand pt-0" href="index.html">
+            <img src="./images/logo.svg" class="logo" alt="logo" />
           </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="strategy.html">Strategy</a></li>
-            <li>
-              <a class="dropdown-item" href="marketing.html">Marketing</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#buzzmenu"
+            aria-controls="buzzmenu" aria-expanded="false" aria-label="Toggle navigation">
+            Menu
+          </button>
+        </div>
+        <div class="desktop-menu">
+          <ul class="navbar-nav ms-auto mb-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Services
+              </a>
+              <ul class="dropdown-menu">
+                <li class="arrow-up">
+                  <div></div>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="strategy.html">Strategy</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="marketing.html">Content</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="technology.html">Technology</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="design.html">Design</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="studio.html">Buzz Studio</a>
+                </li>
+              </ul>
             </li>
-            <li>
-              <a class="dropdown-item" href="technology.html">Technology</a>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="work.html">Our Work</a>
             </li>
-            <li><a class="dropdown-item" href="design.html">Design</a></li>
-            <li><a class="dropdown-item" href="studio.html">Buzz Studio</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blogs.html">Blogs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="news.html">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="careers.html">Careers</a>
+            </li>
           </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="work.html"
-            >Our Work</a
-          >
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="about.html">About Us</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="blogs.html">Blogs</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="news.html">News</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="careers.html">Careers</a>
-        </li>
-        <li class="close-menu-btn">
-          <a
-            href="#"
-            data-bs-toggle="collapse"
-            data-bs-target="#buzzmenu"
-            aria-expanded="false"
-            aria-controls="buzzmenu"
-            ><i class="bi bi-x-circle-fill"></i
-          ></a>
-        </li>
-      </ul>
-    </div>
-    <!-- collpase menu for mobile end -->
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- collpase menu for mobile start -->
+  <div class="collapse mobile-menu-area" id="buzzmenu">
+    <img src="./images/logo.svg" style="width: 125px" alt="logo" />
+    <ul class="navbar-nav ms-auto mb-lg-0">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Services
+        </a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="strategy.html">Strategy</a></li>
+          <li>
+            <a class="dropdown-item" href="marketing.html">Marketing</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="technology.html">Technology</a>
+          </li>
+          <li><a class="dropdown-item" href="design.html">Design</a></li>
+          <li><a class="dropdown-item" href="studio.html">Buzz Studio</a></li>
+        </ul>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="work.html">Our Work</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="blogs.html">Blogs</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="news.html">News</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="careers.html">Careers</a>
+      </li>
+      <li class="close-menu-btn">
+        <a href="#" data-bs-toggle="collapse" data-bs-target="#buzzmenu" aria-expanded="false"
+          aria-controls="buzzmenu"><i class="bi bi-x-circle-fill"></i></a>
+      </li>
+    </ul>
+  </div>
+  <!-- collpase menu for mobile end -->
 
-    <!-- section contact- header -->
-    <section>
-      <div class="contact-header">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-9">
-              <h1>
-                <img
-                  src="images/Contact/smiley.webp"
-                  style="width: 45px"
-                  class="smiley"
-                  alt=""
-                />
-                Get in touch to discuss your<br />
-                project, request a quote or even<br />
-                just to pick our brains.
-              </h1>
-              <br />
-              <div class="text-center btn-contact">
-                <a href="#" class="btn btn-buzz-connect-blue">Let's Connect</a>
-              </div>
+  <!-- section contact- header -->
+  <section>
+    <div class="contact-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-9">
+            <h1>
+              <img src="images/Contact/smiley.webp" style="width: 45px" class="smiley" alt="" />
+              Get in touch to discuss your<br />
+              project, request a quote or even<br />
+              just to pick our brains.
+            </h1>
+            <br />
+            <div class="text-center btn-contact">
+              <a href="#" class="btn btn-buzz-connect-blue">Let's Connect</a>
             </div>
-            <div class="col-md-3">
-              <div class="pattern-contact-page">
-                <img
-                  src="images/Blogs/cross.svg"
-                  style="width: 10%"
-                  class="pat-1"
-                  alt="cross"
-                />
-                <img
-                  src="images/orange-ribbon.webp"
-                  style="width: 30%"
-                  class="mt-5 pat-2"
-                  alt="orange-ribbon"
-                />
-              </div>
+          </div>
+          <div class="col-md-3">
+            <div class="pattern-contact-page">
+              <img src="images/Blogs/cross.svg" style="width: 10%" class="pat-1" alt="cross" />
+              <img src="images/orange-ribbon.webp" style="width: 30%" class="mt-5 pat-2" alt="orange-ribbon" />
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- center form contact- page START-->
-    <section>
-      <div class="contact-center-section">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-4">
-              <div class="contact-left-side-content reveal">
-                <div>
-                  <h3>What Will Happen Next?</h3>
-                  <p>You are a step closer to building great software</p>
-                </div>
-                <div class="mt-5 row">
-                  <div class="col-1">
-                    <div class="h-75 side-pattern-border">
-                      <span class="dot-sign-one"
-                        ><img
-                          src="images/Contact/dot.webp"
-                          style="width: 18px"
-                          alt=""
-                      /></span>
-                      <span class="dot-sign-two"
-                        ><img
-                          src="images/Contact/dot.webp"
-                          style="width: 18px"
-                          alt=""
-                      /></span>
-                      <span class="dot-sign-three"
-                        ><img
-                          src="images/Contact/dot.webp"
-                          style="width: 18px"
-                          alt=""
-                      /></span>
-                    </div>
+  <!-- center form contact- page START-->
+  <section>
+    <div class="contact-center-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="contact-left-side-content reveal">
+              <div>
+                <h3>What Will Happen Next?</h3>
+                <p>You are a step closer to building great software</p>
+              </div>
+              <div class="mt-5 row">
+                <div class="col-1">
+                  <div class="h-75 side-pattern-border">
+                    <span class="dot-sign-one"><img src="images/Contact/dot.webp" style="width: 18px" alt="" /></span>
+                    <span class="dot-sign-two"><img src="images/Contact/dot.webp" style="width: 18px" alt="" /></span>
+                    <span class="dot-sign-three"><img src="images/Contact/dot.webp" style="width: 18px" alt="" /></span>
                   </div>
-                  <div class="col-11">
-                    <div class="mb-5">
-                      <h5>1.Free Technical Consultation</h5>
-                      <p>
-                        Detailed tech plan includes things like what tech stack
-                        to use, tech timeline for your project.
-                      </p>
-                    </div>
-                    <div class="mb-5">
-                      <h5>2.Connect With The Tech Team</h5>
-                      <p>
-                        Over a series of calls, our tech team discusses how
-                        different technologies and frameworks will bring your
-                        vision to life.
-                      </p>
-                    </div>
-                    <div>
-                      <h5>3.Onboarding The Team</h5>
-                      <p>
-                        As soon as you sign-off on the team, they'll be ready to
-                        integrate into your team just like in-house employees.
-                      </p>
-                    </div>
+                </div>
+                <div class="col-11">
+                  <div class="mb-5">
+                    <h5>1.Free Technical Consultation</h5>
+                    <p>
+                      Detailed tech plan includes things like what tech stack
+                      to use, tech timeline for your project.
+                    </p>
+                  </div>
+                  <div class="mb-5">
+                    <h5>2.Connect With The Tech Team</h5>
+                    <p>
+                      Over a series of calls, our tech team discusses how
+                      different technologies and frameworks will bring your
+                      vision to life.
+                    </p>
+                  </div>
+                  <div>
+                    <h5>3.Onboarding The Team</h5>
+                    <p>
+                      As soon as you sign-off on the team, they'll be ready to
+                      integrate into your team just like in-house employees.
+                    </p>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-md-8">
-              <div class="contact-right-side-content">
-                <form>
-                  <div class="mb-4 reveal">
-                    <h4>1.Tell us about your company</h4>
-                    <div class="row">
-                      <div class="col-md-12">
-                        <input
-                          type="text"
-                          class="form-control"
-                          placeholder="Your Name"
-                        />
-                      </div>
-                      <div class="col-md-12">
-                        <input
-                          type="email"
-                          class="form-control"
-                          placeholder="Your Email"
-                        />
-                      </div>
-                      <div class="col-md-6">
-                        <input
-                          type="tel"
-                          class="form-control"
-                          placeholder="Your Phone Number"
-                        />
-                      </div>
-                      <div class="col-md-6">
-                        <input
-                          type="email"
-                          class="form-control"
-                          placeholder="Your Email"
-                        />
-                      </div>
-                      <div class="col-md-12">
-                        <input
-                          type="text"
-                          class="form-control"
-                          placeholder="Company Website"
-                        />
-                      </div>
+          </div>
+          <div class="col-md-8">
+            <div class="contact-right-side-content">
+              <form>
+                <div class="mb-4 reveal">
+                  <h4>1.Tell us about your company</h4>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <input type="text" class="form-control" placeholder="Your Name" />
+                    </div>
+                    <div class="col-md-12">
+                      <input type="email" class="form-control" placeholder="Your Email" />
+                    </div>
+                    <div class="col-md-6">
+                      <input type="tel" class="form-control" placeholder="Your Phone Number" />
+                    </div>
+                    <div class="col-md-6">
+                      <input type="email" class="form-control" placeholder="Your Email" />
+                    </div>
+                    <div class="col-md-12">
+                      <input type="text" class="form-control" placeholder="Company Website" />
                     </div>
                   </div>
+                </div>
 
-                  <div class="mb-4 reveal">
-                    <h4>2.What are you looking to work on?</h4>
-                    <div class="row">
-                      <div class="col-md-12">
-                        <input
-                          type="text"
-                          class="form-control"
-                          placeholder="Describe Your Project"
-                        />
-                      </div>
-                      <div class="col-md-12">
-                        <label>What's Your Budget</label>
-                        <section
-                          class="range-slider"
-                          id="facet-price-range-slider"
-                        >
-                          <input
-                            name="range-1"
-                            value="3000"
-                            min="3000"
-                            max="50000"
-                            step="1"
-                            type="range"
-                          />
-                          <input
-                            name="range-2"
-                            value="50000"
-                            min="0"
-                            max="50000"
-                            step="1"
-                            type="range"
-                          />
-                        </section>
-                        <!-- <div class="prices-min-max">
+                <div class="mb-4 reveal">
+                  <h4>2.What are you looking to work on?</h4>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <input type="text" class="form-control" placeholder="Describe Your Project" />
+                    </div>
+                    <div class="col-md-12">
+                      <label>What's Your Budget</label>
+                      <section class="range-slider" id="facet-price-range-slider">
+                        <input name="range-1" value="3000" min="3000" max="50000" step="1" type="range" />
+                        <input name="range-2" value="50000" min="0" max="50000" step="1" type="range" />
+                      </section>
+                      <!-- <div class="prices-min-max">
                                                 <label>3000</label>
                                                 <label>50000</label>
                                             </div> -->
-                      </div>
                     </div>
                   </div>
+                </div>
 
-                  <div class="mb-4 reveal">
-                    <h4>3.What Services ar you interested in?</h4>
-                    <div class="row">
-                      <div class="col-md-12">
-                        <select class="form-control dd">
-                          <option>Option 1</option>
-                          <option>Option 2</option>
-                          <option>Option 3</option>
-                        </select>
-                      </div>
-                      <div class="col-md-12">
-                        <input
-                          type="text"
-                          class="form-control"
-                          placeholder="List-down Your Key Competitors"
-                        />
-                      </div>
-                      <div class="col-md-12">
-                        <input
-                          type="text"
-                          class="form-control"
-                          placeholder="From where did you get to know about Buzzmakers?"
-                        />
-                      </div>
-                      <div class="input-group">
-                        <label for="inputGroupFile01"
-                          >Attach Document (if Any)</label
-                        >
-                        <input
-                          type="file"
-                          class="form-control d-none"
-                          id="inputGroupFile01"
-                        />
-                      </div>
+                <div class="mb-4 reveal">
+                  <h4>3.What Services ar you interested in?</h4>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <select class="form-control dd">
+                        <option>Option 1</option>
+                        <option>Option 2</option>
+                        <option>Option 3</option>
+                      </select>
+                    </div>
+                    <div class="col-md-12">
+                      <input type="text" class="form-control" placeholder="List-down Your Key Competitors" />
+                    </div>
+                    <div class="col-md-12">
+                      <input type="text" class="form-control"
+                        placeholder="From where did you get to know about Buzzmakers?" />
+                    </div>
+                    <div class="input-group">
+                      <label for="inputGroupFile01">Attach Document (if Any)</label>
+                      <input type="file" class="form-control d-none" id="inputGroupFile01" />
                     </div>
                   </div>
+                </div>
 
-                  <div class="mb-2 reveal">
-                    <h4>
-                      4.Schedule a call with our tech expert. Get a detailed
-                      tech consultation for free!
-                    </h4>
-                    <div class="my-4">
-                      <div id="radio-example">
-                        <label class="radioselect" for="radio1">
-                          <span>Mon</span><br />
-                          <b>Mar 1</b>
-                          <input type="radio" name="radio" id="radio1"/>
-                        </label>
-                        <label class="radioselect" for="radio2">
-                            <span>Tue</span><br />
-                            <b>Mar 2</b>
-                            <input type="radio" name="radio" id="radio2"/>
-                          </label>
-                          <label class="radioselect" for="radio3">
-                            <span>Wed</span><br />
-                            <b>Mar 3</b>
-                            <input type="radio" name="radio" id="radio3"/>
-                          </label>
-                          <label class="radioselect" for="radio4">
-                            <span>Thu</span><br />
-                            <b>Mar 4</b>
-                            <input type="radio" name="radio" id="radio4"/>
-                          </label>
-                          <label class="radioselect" for="radio5">
-                            <span>Fri</span><br />
-                            <b>Mar 5</b>
-                            <input type="radio" name="radio" id="radio5"/>
-                          </label>
-                          <label class="radioselect" for="radio6">
-                            <span>Sat</span><br />
-                            <b>Mar 6</b>
-                            <input type="radio" name="radio" id="radio6"/>
-                          </label>
-                          <label class="radioselect" for="radio7">
-                            <span>Sun</span><br />
-                            <b>Mar 7</b>
-                            <input type="radio" name="radio" id="radio7"/>
-                          </label>
-                          <label class="radioselect" for="radio8">
-                            <span>Mon</span><br />
-                            <b>Mar 8</b>
-                            <input type="radio" name="radio" id="radio8"/>
-                          </label>
+                <div class="mb-2 reveal">
+                  <h4>
+                    4.Schedule a call with our tech expert. Get a detailed
+                    tech consultation for free!
+                  </h4>
+                  <div class="my-4 radio-date-container">
+                    <div id="radio-example" class="radio-date-scroll">
+                      <label class="radioselect" for="radio1">
+                        <span>Mon</span><br />
+                        <b>Mar 1</b>
+                        <input type="radio" name="radio" id="radio1" />
+                      </label>
+                      <label class="radioselect" for="radio2">
+                        <span>Tue</span><br />
+                        <b>Mar 2</b>
+                        <input type="radio" name="radio" id="radio2" />
+                      </label>
+                      <label class="radioselect" for="radio3">
+                        <span>Wed</span><br />
+                        <b>Mar 3</b>
+                        <input type="radio" name="radio" id="radio3" />
+                      </label>
+                      <label class="radioselect" for="radio4">
+                        <span>Thu</span><br />
+                        <b>Mar 4</b>
+                        <input type="radio" name="radio" id="radio4" />
+                      </label>
+                      <label class="radioselect" for="radio5">
+                        <span>Fri</span><br />
+                        <b>Mar 5</b>
+                        <input type="radio" name="radio" id="radio5" />
+                      </label>
+                      <label class="radioselect" for="radio6">
+                        <span>Sat</span><br />
+                        <b>Mar 6</b>
+                        <input type="radio" name="radio" id="radio6" />
+                      </label>
+                      <label class="radioselect" for="radio7">
+                        <span>Sun</span><br />
+                        <b>Mar 7</b>
+                        <input type="radio" name="radio" id="radio7" />
+                      </label>
+                      <label class="radioselect" for="radio8">
+                        <span>Mon</span><br />
+                        <b>Mar 8</b>
+                        <input type="radio" name="radio" id="radio8" />
+                      </label>
 
-                        
-                      </div>
-                    </div>
-                    <div class="row">
-                      <label>Time Zone</label>
-                      <div class="col-md-4">
-                        <select class="form-control dd">
-                          <option>EST</option>
-                          <option>Option 2</option>
-                          <option>Option 3</option>
-                        </select>
-                      </div>
-                      <div class="col-md-8">
-                        <select class="form-control dd">
-                          <option>Scheduled at - 06:00PM to 07:00PM</option>
-                          <option>Scheduled at - 06:00PM to 07:00PM</option>
-                          <option>Scheduled at - 06:00PM to 07:00PM</option>
-                        </select>
-                      </div>
                     </div>
                   </div>
-
-                  <div class="text-center reveal">
-                    <input
-                      type="submit"
-                      class="btn btn-buzz-connect"
-                      value="Submit"
-                    />
+                  <div class="row">
+                    <label>Time Zone</label>
+                    <div class="col-md-4">
+                      <select class="form-control dd">
+                        <option>EST</option>
+                        <option>Option 2</option>
+                        <option>Option 3</option>
+                      </select>
+                    </div>
+                    <div class="col-md-8">
+                      <select class="form-control dd">
+                        <option>Scheduled at - 06:00PM to 07:00PM</option>
+                        <option>Scheduled at - 06:00PM to 07:00PM</option>
+                        <option>Scheduled at - 06:00PM to 07:00PM</option>
+                      </select>
+                    </div>
                   </div>
-                </form>
-              </div>
+                </div>
+
+                <div class="text-center reveal">
+                  <input type="submit" class="btn btn-buzz-connect" value="Submit" />
+                </div>
+              </form>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <!-- center form contact- page END -->
+    </div>
+  </section>
+  <!-- center form contact- page END -->
 
-    <!-- section address start -->
-    <section class="section-address responsive-container">
-      <div class="container">
-        <div class="row justify-content-end reveal">
-          <div class="col-md-5">
-            <div class="box-address">
-              <h5>Mumbai</h5>
-              <p class="mb-0">
-                Buzz Markers, Ascent Business Centre,<br />
-                Office No.34, 3rd Floor, Sej Plaza Marve Road,<br />
-                Off S.V.Road, Malad (W),Mumbai - 400064<br />
-                +919890393090
-              </p>
+  <!-- section address start -->
+  <section class="section-address responsive-container">
+    <div class="container">
+      <div class="row justify-content-end reveal">
+        <div class="col-md-5">
+          <div class="box-address">
+            <h5>Mumbai</h5>
+            <p class="mb-0">
+              Buzz Markers, Ascent Business Centre,<br />
+              Office No.34, 3rd Floor, Sej Plaza Marve Road,<br />
+              Off S.V.Road, Malad (W),Mumbai - 400064<br />
+              +919890393090
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="box-address">
+            <h5>Nagpur</h5>
+            <p class="mb-0">
+              Buzz Markers, Above Panino,<br />
+              Wardhman Nagar Colony,<br />
+              Nagpur - 440012<br />
+              +919028999566
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- section address ends -->
+
+  <!-- faqs -->
+  <section class="faqs">
+    <div class="text-center text-white mb-5 reveal">
+      <h2 class="hindi2"><span>#</span>गहराइयाँ</h2>
+      <h1 class="text-white">FAQ's</h1>
+    </div>
+    <div class="container reveal">
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+              aria-expanded="true" aria-controls="collapseOne">
+              Accordion Item #1
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              This is the first item's accordion body. It is shown by default,
+              until the collapse plugin adds the appropriate classes that we
+              use to style each element. These classes control the overall
+              appearance, as well as the showing and hiding via CSS
+              transitions. You can modify any of this with custom CSS or
+              overriding our default variables. It's also worth noting that
+              just about any HTML can go within the .accordion-body, though
+              the transition does limit overflow.
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="box-address">
-              <h5>Nagpur</h5>
-              <p class="mb-0">
-                Buzz Markers, Above Panino,<br />
-                Wardhman Nagar Colony,<br />
-                Nagpur - 440012<br />
-                +919028999566
-              </p>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Accordion Item #2
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              This is the first item's accordion body. It is shown by default,
+              until the collapse plugin adds the appropriate classes that we
+              use to style each element. These classes control the overall
+              appearance, as well as the showing and hiding via CSS
+              transitions. You can modify any of this with custom CSS or
+              overriding our default variables. It's also worth noting that
+              just about any HTML can go within the .accordion-body, though
+              the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Accordion Item #3
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              This is the first item's accordion body. It is shown by default,
+              until the collapse plugin adds the appropriate classes that we
+              use to style each element. These classes control the overall
+              appearance, as well as the showing and hiding via CSS
+              transitions. You can modify any of this with custom CSS or
+              overriding our default variables. It's also worth noting that
+              just about any HTML can go within the .accordion-body, though
+              the transition does limit overflow.
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <!-- section address ends -->
-
-    <!-- faqs -->
-    <section class="faqs">
-      <div class="text-center text-white mb-5 reveal">
-        <h2 class="hindi2"><span>#</span>गहराइयाँ</h2>
-        <h1 class="text-white">FAQ's</h1>
+      <div>
+        <a href="#" class="text-white">READ ALL FAQs<i class="bi bi-arrow-right ms-3"></i></a>
       </div>
-      <div class="container reveal">
-        <div class="accordion" id="accordionExample">
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingOne">
-              <button
-                class="accordion-button"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseOne"
-                aria-expanded="true"
-                aria-controls="collapseOne"
-              >
-                Accordion Item #1
-              </button>
-            </h2>
-            <div
-              id="collapseOne"
-              class="accordion-collapse collapse show"
-              aria-labelledby="headingOne"
-              data-bs-parent="#accordionExample"
-            >
-              <div class="accordion-body">
-                This is the first item's accordion body. It is shown by default,
-                until the collapse plugin adds the appropriate classes that we
-                use to style each element. These classes control the overall
-                appearance, as well as the showing and hiding via CSS
-                transitions. You can modify any of this with custom CSS or
-                overriding our default variables. It's also worth noting that
-                just about any HTML can go within the .accordion-body, though
-                the transition does limit overflow.
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingTwo">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseTwo"
-                aria-expanded="false"
-                aria-controls="collapseTwo"
-              >
-                Accordion Item #2
-              </button>
-            </h2>
-            <div
-              id="collapseTwo"
-              class="accordion-collapse collapse"
-              aria-labelledby="headingTwo"
-              data-bs-parent="#accordionExample"
-            >
-              <div class="accordion-body">
-                This is the first item's accordion body. It is shown by default,
-                until the collapse plugin adds the appropriate classes that we
-                use to style each element. These classes control the overall
-                appearance, as well as the showing and hiding via CSS
-                transitions. You can modify any of this with custom CSS or
-                overriding our default variables. It's also worth noting that
-                just about any HTML can go within the .accordion-body, though
-                the transition does limit overflow.
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingThree">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseThree"
-                aria-expanded="false"
-                aria-controls="collapseThree"
-              >
-                Accordion Item #3
-              </button>
-            </h2>
-            <div
-              id="collapseThree"
-              class="accordion-collapse collapse"
-              aria-labelledby="headingThree"
-              data-bs-parent="#accordionExample"
-            >
-              <div class="accordion-body">
-                This is the first item's accordion body. It is shown by default,
-                until the collapse plugin adds the appropriate classes that we
-                use to style each element. These classes control the overall
-                appearance, as well as the showing and hiding via CSS
-                transitions. You can modify any of this with custom CSS or
-                overriding our default variables. It's also worth noting that
-                just about any HTML can go within the .accordion-body, though
-                the transition does limit overflow.
-              </div>
-            </div>
-          </div>
-        </div>
-        <div>
-          <a href="#" class="text-white"
-            >READ ALL FAQs<i class="bi bi-arrow-right ms-3"></i
-          ></a>
-        </div>
-        <div class="text-center text-white mb-3 fw-bold faq-content">
-          <h2>Now that you've scrolled to the bottom of the page.</h2>
-          <h2>We believe that we've got you excited.</h2>
-          <h2>Let's get your brand buzzing?</h2>
-          <a
-            href="#"
-            class="btn btn-buzz mt-2"
-            style="padding: 7px 20px !important"
-            >Get in Touch</a
-          >
-        </div>
+      <div class="text-center text-white mb-3 fw-bold faq-content">
+        <h2>Now that you've scrolled to the bottom of the page.</h2>
+        <h2>We believe that we've got you excited.</h2>
+        <h2>Let's get your brand buzzing?</h2>
+        <a href="#" class="btn btn-buzz mt-2" style="padding: 7px 20px !important">Get in Touch</a>
       </div>
-    </section>
-    <!-- faqs end -->
+    </div>
+  </section>
+  <!-- faqs end -->
 
-    <!-- footer section starts -->
-    <section class="footer">
-      <div class="container">
-        <div class="row justify-content-between py-4">
-          <div class="col-md-6 footer-logo">
-            <img src="images/logo.svg" style="width: 20%" alt="logo" /><br />
-            <label>info@buzzmakers.in</label>
+  <!-- footer section starts -->
+  <section class="footer">
+    <div class="container">
+      <div class="row justify-content-between py-4">
+        <div class="col-md-6 footer-logo">
+          <img src="images/logo.svg" style="width: 20%" alt="logo" /><br />
+          <label>info@buzzmakers.in</label>
+        </div>
+        <div class="col-md-6">
+          <div class="text-end">
+            <ul class="footer-menu">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Case Studies</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
           </div>
-          <div class="col-md-6">
-            <div class="text-end">
-              <ul class="footer-menu">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Case Studies</a></li>
-                <li><a href="#">Contact</a></li>
-              </ul>
-            </div>
-            <div class="social-icons text-end">
-              <a href="#"><i class="bi bi-facebook"></i></a>
-              <a href="#"><i class="bi bi-twitter"></i></a>
-              <a href="#"><i class="bi bi-instagram"></i></a>
-              <a href="#"><i class="bi bi-linkedin"></i></a>
-            </div>
+          <div class="social-icons text-end">
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-twitter"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-linkedin"></i></a>
           </div>
         </div>
       </div>
-      <div class="credits py-2">
-        <label>Copyright &copy; BuzzMakers</label>
-      </div>
-    </section>
-    <!-- footer section ends -->
-    <script src="js/popper.min.js"></script>
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="js/slick.js"></script>
-    <script src="js/custom.js"></script>
-    <script src="js/rangeslider.js"></script>
-    <script>
-      // $(document).ready(function () {
-      //     //change colour when radio is selected
-      //     // $('#radio-example input:radio').change(function () {
-      //     //     // Only remove the class in the specific `box` that contains the radio
-      //     //     $('div.highlight').removeClass('highlight');
-      //     //     // $(this).closest('.row').addClass('highlight');
-      //     //     $(this).closest('.radioselect').addClass('highlight');
-      //     // });
-      //     $('#radio-example input:radio').change(function () {
-      //         // Only remove the class in the specific `box` that contains the radio
-      //         // $('div.highlight').removeClass('highlight');
+    </div>
+    <div class="credits py-2">
+      <label>Copyright &copy; BuzzMakers</label>
+    </div>
+  </section>
+  <!-- footer section ends -->
+  <script src="js/popper.min.js"></script>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/slick.js"></script>
+  <script src="js/custom.js"></script>
+  <script src="js/rangeslider.js"></script>
+  <script>
+    // $(document).ready(function () {
+    //     //change colour when radio is selected
+    //     // $('#radio-example input:radio').change(function () {
+    //     //     // Only remove the class in the specific `box` that contains the radio
+    //     //     $('div.highlight').removeClass('highlight');
+    //     //     // $(this).closest('.row').addClass('highlight');
+    //     //     $(this).closest('.radioselect').addClass('highlight');
+    //     // });
+    //     $('#radio-example input:radio').change(function () {
+    //         // Only remove the class in the specific `box` that contains the radio
+    //         // $('div.highlight').removeClass('highlight');
 
-      //         $('.radioselect').addClass('highlight');
+    //         $('.radioselect').addClass('highlight');
 
-      //     });
+    //     });
 
-      // });
+    // });
 
-      // function convertRadio(rid) {
-      //     $('.radioselect').addClass('highlight');
-      // }
+    // function convertRadio(rid) {
+    //     $('.radioselect').addClass('highlight');
+    // }
 
- 
 
-      $(".radioselect").click(function () {
-        $(".radioselect").removeClass("radioselect-yellow");
-        $(this).addClass("radioselect-yellow");
-      });
 
-    </script>
-  </body>
+    $(".radioselect").click(function () {
+      $(".radioselect").removeClass("radioselect-yellow");
+      $(this).addClass("radioselect-yellow");
+    });
+
+  </script>
+</body>
+
 </html>
