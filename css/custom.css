@@ -23,12 +23,12 @@ body {
 @font-face {
     font-family: buzzlight;
     font-display: swap;
-    src: url(../fonts/Fontspring-DEMO-visbycf-regular.otf);
+    src: url(../fonts/VisbyCF-Regular.otf);
 }
 @font-face {
     font-family: buzzbold;
     font-display: swap;
-    src: url(../fonts/Fontspring-DEMO-visbycf-bold.otf);
+    src: url(../fonts/VisbyCF-Bold.otf);
 }
 @font-face {
     font-family: buzzhindi;
