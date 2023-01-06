@@ -31,8 +31,8 @@ $(document).ready(function () {
             infinite: !0,
             autoplaySpeed: 1e4,
             dots: !1,
-            prevArrow: !1,
-            nextArrow: !1,
+            prevArrow: false,
+            nextArrow: '<label class="nav-next-testimonial"><i class="bi bi-arrow-right-circle-fill"></i></label>',
             responsive: [
                 { breakpoint: 992, settings: { slidesToShow: 2 } },
                 { breakpoint: 600, settings: { slidesToShow: 1, rows: 1, dots: !1 } },
