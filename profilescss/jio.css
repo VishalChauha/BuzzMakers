@@ -1,0 +1,138 @@
+:root {
+    --white-color: #fff;
+    --black: #1e1c1b;
+    --blue: #5504b0;
+    --blue-light: #661db8;
+    --yellow: #fbd206;
+    --gray: #707070;
+    --light-gray: #f2f2f2;
+    --light-skin: #fff8ed;
+}
+
+body {
+    background-color: var(--light-skin);
+}
+
+.container-back-top-section{
+    background-image: url('../images/profile/jio/pattern-jio\ copy.png');
+    background-size: 100%;
+}
+
+.img-header-container {
+    aspect-ratio: 16/9;
+}
+
+.section-text {
+    background-image: url(../images/profile/jio/horn\ copy.png);
+    background-repeat: no-repeat;
+    background-size: 15rem;
+}
+
+/* post-container */
+.post-container {
+    background-color: var(--yellow);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.post-box-design {
+    background-color: var(--white-color);
+    border-radius: 8px;
+}
+
+.post-img-title-container {
+    text-align: start;
+}
+
+.post-img-title-container img {
+    text-align: start;
+    border-radius: 8px;
+}
+
+.post-container-inner-1 {
+    position: relative;
+    z-index: 1000;
+    margin-right: 30px;
+}
+
+.post-container-inner-2 {
+    position: relative;
+    z-index: 10;
+    margin-top: -30px;
+    right: -30px;
+}
+
+/* mob-post-container */
+
+.mob-container-section{
+    padding: 110px 0px;;
+}
+
+.mob-post-container{
+    background-color: var(--yellow);
+    padding: 20px 40px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.mobile-screen{
+    position:absolute;
+    top: -30%;
+    width: 260px;
+    margin: 0 auto;
+}
+
+.mobile-phone-1,.mobile-phone-2,.mobile-phone-3,.mobile-phone-4{
+    margin-left:-7px;
+    display: none;
+    transition-property: display;
+    transition-duration:300ms;
+}
+
+.box-mob-img-container{
+    aspect-ratio: 1/1;
+}
+
+.box-mob-img-1:hover .mobile-phone-1{
+    display:block;
+}
+.box-mob-img-2:hover .mobile-phone-2{
+    display:block;
+}
+.box-mob-img-3:hover .mobile-phone-3{
+    display:block;
+}
+.box-mob-img-4:hover .mobile-phone-4{
+    display:block;
+}
+
+.box-mob-img{
+    background-image: none;
+}
+.box-mob-img:hover{
+    background-image: url(../images/profile/jio/mobile.png);
+    background-size: 100%;
+}
+
+.footer-line{
+    background-image: url(../images/profile/jio/bottom-line.png);
+}
+
+/* reels-container */
+.reels-container{
+    background-image: url(../images/profile/jio/reelsback.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 80px 40px 80px 80px;
+}
+
+.reel-photo-screen{
+   /* aspect-ratio: 16/9; */
+   /* transition-property: scale;
+   transition-duration: 0.3s; */
+   /* transition: margin-right 2s; */
+   transition: scale 0.5s ease-in-out;
+}
+.reel-photo-screen:hover img{
+    scale: 1.1;
+}
