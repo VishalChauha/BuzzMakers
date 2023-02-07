@@ -13,7 +13,11 @@ body {
     background-color: var(--light-skin);
 }
 
-.container-back-top-section{
+.aspect-r-11 {
+    aspect-ratio: 1/1;
+}
+
+.container-back-top-section {
     background-image: url('../images/profile/jio/pattern-jio\ copy.png');
     background-size: 100%;
 }
@@ -28,14 +32,51 @@ body {
     background-size: 15rem;
 }
 
-.main-ent-container{
- background-image: url(../images/profile/poojaent/yellow-back.png);   
+.main-ent-container {
+    background-image: url(../images/profile/poojaent/yellow-back.png);
+    margin-top: 6rem;
+}
+
+.top-hash-tag-container {
+    position: relative;
+}
+
+.large-hash {
+    position: absolute;
+}
+
+.small-hash{
+    position: absolute;
+    /* background-color: #5504b0; */
+    right: -10%;
+    top: 40%;
+}
+
+/* .small-hash img{
+    margin-top: 90%;
+} */
+
+.screen-post-main img {
+    position: absolute;
+    top: -20%;
+    max-width: 50%;
 }
 
 /* img-eyes-left */
-.img-eyes-left{
+.img-eyes-left {
     position: relative;
     text-align: end;
     margin-right: 20%;
 }
 
+.img-eyes-up{
+    position: relative;
+    top: 20%;
+}
+
+.name-text-hash{
+    position: relative;
+    margin-left: 60%;
+    margin-top: 70%;
+    z-index: 10000;
+}
