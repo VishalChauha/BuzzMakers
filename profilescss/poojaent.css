@@ -9,6 +9,22 @@
     --light-skin: #fff8ed;
 }
 
+@font-face {
+    font-family: buzz;
+    font-display: swap;
+    src: url(../css/fonts/VinkaDuscha.ttf);
+}
+@font-face {
+    font-family: buzzlight;
+    font-display: swap;
+    src: url(../css/fonts/VisbyCF-Regular.otf);
+}
+@font-face {
+    font-family: buzzbold;
+    font-display: swap;
+    src: url(../css/fonts/VisbyCF-Bold.otf);
+}
+
 body {
     background-color: var(--light-skin);
 }
@@ -35,6 +51,7 @@ body {
 .main-ent-container {
     background-image: url(../images/profile/poojaent/yellow-back.png);
     margin-top: 6rem;
+    padding-bottom: 5rem;
 }
 
 .top-hash-tag-container {
@@ -50,6 +67,25 @@ body {
     /* background-color: #5504b0; */
     right: -10%;
     top: 40%;
+}
+
+.shadow-solid{
+    box-shadow: 6px 10px 1px #333333;
+    border: 1px solid #333333;
+}
+
+.heading-bar{
+    text-align: center;
+    border: 2pt solid #1e1c1b;
+    padding: 15px 0px;
+    font-family: buzzbold;
+    background-color: var(--yellow);
+    box-shadow: 8px 8px 1px #ffffff;
+    margin-bottom:30px;
+}
+.heading-bar label{
+    font-size: 1.3rem;
+    font-family: buzzlight;
 }
 
 /* .small-hash img{
@@ -74,9 +110,23 @@ body {
     top: 20%;
 }
 
+.img-eyes-right-bottom{
+    margin-left: 15%;
+    margin-top: 15%;
+}
+.img-eyes-left-bottom{
+    margin-top: 25%;
+    margin-left: 5%;
+}
+
 .name-text-hash{
     position: relative;
     margin-left: 60%;
     margin-top: 70%;
     z-index: 10000;
+}
+
+.footer-line{
+    background-image: url(../images/profile/poojaent/bottom-line.png);
+    margin-top: 3rem;
 }
