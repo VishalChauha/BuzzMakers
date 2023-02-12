@@ -26,6 +26,20 @@
     src: url(../css/fonts/VisbyCF-Bold.otf);
 }
 
+h1,h2,h3,h4,h5,h6{
+    color: var(--black);
+}
+
+.sq-title{
+    width: 25%;
+    padding: 4px 20px !important;
+    font-family: buzzbold;
+    font-size:1rem;
+    background-color: var(--white-color);
+    border: 1px solid var(--black);
+    box-shadow: 5px 5px 1px var(--yellow);
+}
+
 body {
     background-color: var(--light-skin);
 }
@@ -44,13 +58,47 @@ body {
 }
 
 .section-text {
-    background-image: url(../images/profile/jio/horn\ copy.png);
+    background-image: url(../images/profile/jio/horn\ copy.png),url(../images/profile/lumar/side-ribbon.png);
     background-repeat: no-repeat;
-    background-size: 15rem;
+    background-size: 15rem,10rem;
+    background-position: left , top right 20px;
+}
+
+.backround-square{
+    background-image: url(../images/profile/lumar/squares.png);
+}
+
+.standee-banner{
+    position:absolute;
+    width:45%;
+    left: 0;
+    top:12%;
+}
+
+.heading-standy{
+    font-family: buzzbold;
+    position:absolute;
+    font-size:3rem;
+    right: 20%;
+    top: 50%;
+    color: var(--white-color);
+}
+
+.yellow-back{
+    background-color: var(--yellow);
+    background-image: url(../images/profile/lumar/squares.png);
+    margin-top: 8%;
+    padding-top:50px;
+    padding-bottom:150px;
+    /* position: relative; */
+}
+
+.inner-post-container{
+    position:relative;
+    margin-top:-12%;
 }
 
 .main-ent-container {
-    background-image: url(../images/profile/lumar/squares.png);
     padding-bottom: 5rem;
     background-color:var(--red);
 }
@@ -125,5 +173,4 @@ body {
 
 .footer-line{
     background-image: url(../images/profile/poojaent/bottom-line.png);
-    margin-top: 3rem;
 }
