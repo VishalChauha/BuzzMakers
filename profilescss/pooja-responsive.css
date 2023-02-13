@@ -1,0 +1,58 @@
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {}
+
+@media only screen and (max-width: 992px) {
+    .section-text {
+        background-image: url(../images/profile/jio/horn\ copy.png), url(../images/profile/lumar/side-ribbon.png);
+        background-repeat: no-repeat;
+        background-size: 8rem, 5rem;
+        background-position: bottom left, top right;
+    }
+
+    .large-hash {
+        display: none;
+    }
+    .small-hash {
+        display: none;
+    }
+
+    .name-text-hash {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .section-text {
+        background-image: url(../images/profile/jio/horn\ copy.png);
+        background-repeat: no-repeat;
+        background-size: 8rem;
+        background-position: bottom left;
+    }
+
+    .large-hash {
+        display: none;
+    }
+
+    .small-hash {
+        display: none;
+    }
+
+    .name-text-hash {
+        display: none;
+    }
+
+    .screen-post-main img {
+        position: static;
+        max-width: 100%;
+    }
+
+    .main-ent-container {
+        margin-top: 0px;
+    }
+
+    .img-eyes-left {
+        position: relative;
+        text-align: end;
+        margin-right: 0px;
+    }
+}

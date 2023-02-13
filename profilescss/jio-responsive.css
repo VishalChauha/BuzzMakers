@@ -1,6 +1,40 @@
-@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {}
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+    
+}
 
-@media only screen and (max-width: 992px) {}
+@media only screen and (max-width: 992px) {
+    .section-text {
+        background-image: url(../images/profile/jio/horn\ copy.png);
+        background-repeat: no-repeat;
+        background-size: 8rem;
+        background-position: bottom left;
+    }
+
+    .box-mob-img-container{
+        margin-bottom: 20px;
+    }
+
+    .reels-container{
+        padding: 30px;
+    }
+
+    .reel-photo-screen{
+        margin-bottom: 20px
+    }
+
+    .post-box-design {
+        margin-bottom: 20px;
+    }
+
+    .post-container-inner-1 {
+        margin-right: 00px;
+    }
+
+    .post-container-inner-2 {
+        margin-top: 0px;
+        right: 0px;
+    }
+}
 
 @media only screen and (max-width: 600px) {
     .section-text {
