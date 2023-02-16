@@ -1,0 +1,116 @@
+:root {
+    --white-color: #fff;
+    --black: #1e1c1b;
+    --blue: #5504b0;
+    --blue-light: #661db8;
+    --yellow: #fbd206;
+    --gray: #707070;
+    --light-gray: #f2f2f2;
+    --light-skin: #fff8ed;
+}
+
+@font-face {
+    font-family: buzz;
+    font-display: swap;
+    src: url(../css/fonts/VinkaDuscha.ttf);
+}
+@font-face {
+    font-family: buzzlight;
+    font-display: swap;
+    src: url(../css/fonts/VisbyCF-Regular.otf);
+}
+@font-face {
+    font-family: buzzbold;
+    font-display: swap;
+    src: url(../css/fonts/VisbyCF-Bold.otf);
+}
+
+body {
+    background-color: var(--white-color);
+}
+h1,h2,h3,h4,h5,h6{
+    color: var(--black);
+    font-family: buzzbold;
+}
+
+.aspect-r-11 {
+    aspect-ratio: 1/1;
+}
+
+.img-header-container {
+    aspect-ratio: 16/9;
+}
+
+.section-text {
+    background-image: url(../images/profile/sarvotkarsh/back-drop.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center;
+}
+
+.sq-title{
+    width:80%;
+    padding: 4px 20px !important;
+    font-family: buzzbold;
+    font-size:1rem;
+    background-color: var(--white-color);
+    border: 1px solid var(--black);
+    box-shadow: 5px 5px 1px var(--yellow);
+}
+
+/* .website-screens{
+    width: 100%;
+    margin: 0 auto;
+} */
+
+.products{
+    background-color: var(--yellow);
+    padding: 40px 0px;
+}
+
+.social-section{
+    background-color: var(--white-color);
+    padding: 80px 0px;
+}
+.standy-section{
+    background-color: var(--yellow);
+    margin-top:100px;
+    padding: 0px;
+}
+.standy-img{
+    position: relative;
+    margin-top: -10%;
+}
+
+.title-standy{
+    margin-left: 8%;
+}
+.title-standy h2{
+    font-size: 1.90rem;
+}
+
+/*  */
+.packaging-section{
+    padding: 80px 0px;
+}
+
+.packets-line{
+    display: flex;
+    flex-direction: row;
+}
+.packets-line img{
+    width: 20%;
+}
+
+/* brochure */
+.brochure{
+    /* background-color: var(--yellow); */
+    /* background-color: #deb201; */
+    /* background-color: #ffcb00; */
+    background: linear-gradient(to right,#e4ad00,#ffce00);
+}
+
+.footer-line{
+    background-image: url(../images/profile/poojaent/bottom-line.png);
+    margin-top: 3rem;
+}
