@@ -1,5 +1,10 @@
 @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
-    
+    .mobile-screen{
+        position:absolute;
+        top: -30%;
+        width: 260px;
+        margin: 0 auto;
+    }
 }
 
 @media only screen and (max-width: 992px) {
