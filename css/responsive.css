@@ -435,16 +435,20 @@
     }
     .footer-logo {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
         margin-bottom: 5%;
+        gap: 30px;
     }
     .footer-menu {
         flex-wrap: wrap;
-        justify-content: space-evenly;
+        justify-content: start;
     }
     .footer-menu li {
-        padding: 0 1.5rem;
+        padding: 0 2.5rem;
+    }
+    .footer-menu li:last-child {
+        padding: 0 0rem;
     }
     .footer-logo img {
         width: 30%;
@@ -455,6 +459,20 @@
         justify-content: center;
         gap: 4%;
         padding-left: 0;
+    }
+
+    .wp-icon{
+        width: 60px;
+        position: fixed;
+        right: 10px;
+        bottom:10px;
+        z-index: 10000;
+    }
+
+    .social-icons a {
+        font-size: 1.2rem;
+        padding:0px 20px;
+        transition: 0.3s;
     }
     .list-content {
         padding-left: 20%;
